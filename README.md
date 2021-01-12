@@ -24,7 +24,7 @@ less or equals to 10.
 AIM WITH THE PROGRAM:
 1) User cannot enter number in the country name.
 2) Possibly make the rating variable to be able to take words from 1 to 10. For e.g. 'one','two'..'ten'.
-3) This is it for now.. I will update this as I set sail on my JOURNEY TO THE GRAND C
+3) This is it for now.. I will update this as I set sail on my VOYAGE to THE GRAND C.
 
 REFERENCES THAT INSPIRED ME TO NOT GIVE INTO C:
 (SPECIFIC TO THIS PROGRAM)C PROGRAMMING ABSOLUTE BEGINNER'S GUIDE 3RD EDITION BY GREG PERRY AND DEAN MILLER (CH 15 PAGE 136), 

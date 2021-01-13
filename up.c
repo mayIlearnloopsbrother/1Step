@@ -14,24 +14,34 @@ int main(){
 	}while(noCountries < 1);	
 	
 	for(i=1;i<=noCountries;i++){
-		printf("name of the country: ");	
-		scanf("%s",countryName);	
-			for (;;){
-				printf("rate the country 1 - 10: ");
-				scanf("%d",&rating);	
-					if(rating <= 10){
+		for(;;){
+			printf("name of the country: ");	
+			scanf("%s",countryName);	
+				if(atoi(countryName) <= -1 && atoi(countryName)){
+					continue;
+				}if(atoi(countryName) == 0){
 					break;
-					}if(rating >10){
-				continue;}	
-		}	
+				}
+		}
+
+		for (;;){
+			printf("rate the country 1 - 10: ");
+			scanf("%d",&rating);	
+				if(rating <= 10){
+					break;
+				}if(rating >10){
+					continue;
+				}	
+		}
+
 		if (rating > favRating){
 				strcpy(favorite, countryName);
 				favRating = rating;	
-			}if (rating < leRating){
+		}if (rating < leRating){
 				strcpy(least, countryName);
 				leRating = rating;	
-			}
-	}printf("favorite country: %s\nleast-favourite country: %s\n",favorite,least);
+		}
+	}printf("favorite country: %s because you gave %d out of 10\nleast-favourite country: %s because you gave %d out of 10\n",favorite, favRating,least,leRating);
 
 	return 0;
 }

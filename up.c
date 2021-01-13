@@ -17,7 +17,7 @@ int main(){
 		for(;;){
 			printf("name of the country: ");	
 			scanf("%s",countryName);	
-				if(atoi(countryName) <= -1 && atoi(countryName)){
+				if(atoi(countryName) <= -1 && atoi(countryName)>=0){
 					continue;
 				}if(atoi(countryName) == 0){
 					break;

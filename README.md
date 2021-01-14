@@ -23,7 +23,11 @@ AIM WITH THE PROGRAM:
 3) This is it for now.. I will update this as I set sail on my VOYAGE to THE GRAND C.
 
 REALITY OF THE AIM:
-1.User will be asked to enter the country name if they typed number'<-1' and '>=0'. /*atoi is used to convert the string into number. If the input is 0 the program still takes it as a countryName string variable*/
+1.User will be asked to enter the country name if they typed number'<-1' and '>=0'. /*atoi is used to convert the string into number.*/
+
+PROGRAM NINTEDED FEATURES:
+1. Setting the same rating for more than 2 countries.
+2. User enters the 0 when asked about the name of the country.
 
 REFERENCES THAT MADE ME DO THIS IN C:
 (SPECIFIC TO THIS PROGRAM)C PROGRAMMING ABSOLUTE BEGINNER'S GUIDE 3RD EDITION BY GREG PERRY AND DEAN MILLER (CH 15 PAGE 136), 

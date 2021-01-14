@@ -26,8 +26,12 @@ AIM WITH THE PROGRAM:
 2) Possibly make the rating variable to be able to take words from 1 to 10. For e.g. 'one','two'..'ten'.
 3) This is it for now.. I will update this as I set sail on my VOYAGE to THE GRAND C.
 
-REFERENCES THAT INSPIRED ME TO NOT GIVE INTO C:
+REALITY OF THE AIM:
+1.User will be asked to enter the country name if they typed number'<-1' and '>=0'. /*atoi is used to convert the string into number. If the input is 0 the program still takes it as a countryName string variable*/
+
+
+REFERENCES THAT MADE ME DO THIS IN C:
 (SPECIFIC TO THIS PROGRAM)C PROGRAMMING ABSOLUTE BEGINNER'S GUIDE 3RD EDITION BY GREG PERRY AND DEAN MILLER (CH 15 PAGE 136), 
-NESO ACADEMY, INDIAN C PROGRAMMING YOUTUBERS (SHUKRIYA)<<--IT MEANS THANKS IN HINDI/URDU, 
-ALSO INDIAN WEBSITE WITH NEVER ENDING PROBLEMS ON C TOPICS FOR BEGINNERS.
+
+
 

@@ -19,13 +19,14 @@ ATOI
 
 AIM WITH THE PROGRAM:
 1) User cannot enter number in the country name. DONE 13 JAN 2021
-2) Possibly make the rating variable to be able to take words from 1 to 10. For e.g. 'one','two'..'ten'.
+2) Possibly make the rating variable to be able to take words from 1 to 10. For e.g. 'one','two'..'ten'. NOT DONE
 3) This is it for now.. I will update this as I set sail on my VOYAGE to THE GRAND C.
 
 REALITY OF THE AIM:
 1.User will be asked to enter the country name if they typed number'<-1' and '>=0'. /*atoi is used to convert the string into number.*/
+/*2. I am going to HALT on this program as of 14 January 2021. Will come back to this after experimenting with more SYNTAX. I 've also added (in.c wt.c s2.c) files which were bitsize code to build the program */
 
-PROGRAM NINTEDED FEATURES:
+PROGRAM UNINTEDED FEATURES:
 1. Setting the same rating for more than 2 countries.
 2. User enters the 0 when asked about the name of the country.
 

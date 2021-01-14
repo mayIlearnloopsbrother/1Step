@@ -1,9 +1,9 @@
 # 1Step
 NOTE: MY PROGRESS IN C...12 JAN 2021.. AIM: TO LEARN C.. 
 
-1st file: "countries.c" which contains annotation I left it like that so I can look back on it
-to see how easy it was to break the program.
-2nd file: "up.c" will contain the code that I will be updating to make it lot harder to break the program.
+1st file: "countries.c" which contains comments and serves as original copy
+
+2nd file: "up.c" contains the updated code
 
 ABOUT THE PROGRAM:
 Output:
@@ -11,18 +11,20 @@ Asks user how many countries they have been to.
 Ask to input the name of the countries.
 Rate the countries 1 out of 10.
 
-CODE USES THESE:
+PROGRAM USES THESE:
 <STDIO.H> library, INTEGERS, CHARACTERS, STRCPY, DO WHILE LOOPS, FOR LOOPS, CONTINUE, BREAK, IF STATEMENTS
-for the time being
-CODE WILL POSSIBLY USE THESE IN THE FUTURE:
-<STRING.H> library, ISUPPER, ISLOWER, ISALPHA
+
+PROGRAM USED THESE DURING IMPROVEMENT
+ATOI
+
+
 
 CURRENTLY:
 If the user were to put more than 10. They will be asked to enter the rating untill they put
 less or equals to 10.
 
 AIM WITH THE PROGRAM:
-1) User cannot enter number in the country name.
+1) User cannot enter number in the country name. DONE 13 JAN 2021
 2) Possibly make the rating variable to be able to take words from 1 to 10. For e.g. 'one','two'..'ten'.
 3) This is it for now.. I will update this as I set sail on my VOYAGE to THE GRAND C.
 

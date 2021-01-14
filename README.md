@@ -1,4 +1,4 @@
-# 1Step
+# 1S
 NOTE: MY PROGRESS IN C...12 JAN 2021.. AIM: TO LEARN C.. 
 
 1st file: "countries.c" which contains comments and serves as original copy
@@ -14,14 +14,8 @@ Rate the countries 1 out of 10.
 PROGRAM USES THESE:
 <STDIO.H> library, INTEGERS, CHARACTERS, STRCPY, DO WHILE LOOPS, FOR LOOPS, CONTINUE, BREAK, IF STATEMENTS
 
-PROGRAM USED THESE DURING IMPROVEMENT
+PROGRAM USED THESE DURING UPDATE PHASE:
 ATOI
-
-
-
-CURRENTLY:
-If the user were to put more than 10. They will be asked to enter the rating untill they put
-less or equals to 10.
 
 AIM WITH THE PROGRAM:
 1) User cannot enter number in the country name. DONE 13 JAN 2021
@@ -30,7 +24,6 @@ AIM WITH THE PROGRAM:
 
 REALITY OF THE AIM:
 1.User will be asked to enter the country name if they typed number'<-1' and '>=0'. /*atoi is used to convert the string into number. If the input is 0 the program still takes it as a countryName string variable*/
-
 
 REFERENCES THAT MADE ME DO THIS IN C:
 (SPECIFIC TO THIS PROGRAM)C PROGRAMMING ABSOLUTE BEGINNER'S GUIDE 3RD EDITION BY GREG PERRY AND DEAN MILLER (CH 15 PAGE 136), 
